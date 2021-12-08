@@ -16,9 +16,7 @@ function firstpart(){
     tl.from("#leaf-3",{alpha: 0, xPercent:10, duration: 4, ease: "elastic.out(1, 0.5)"},"-=100%")
     tl.from("#leaf-2",{alpha: 0, xPercent:10, duration: 4, ease: "elastic.out(1, 0.5)"},"-=100%")
     tl.from("#leaf-1",{alpha: 0, xPercent:-10, duration: 4, ease: "elastic.out(1, 0.5)"},"-=100%")
-    // morph is not working here. I asked for help from 3 different people and no one knew what to do. I looked at GSAP forums as well.
-    tl.to("#stem-four",{morphSVG:"#letterA", duration: 1})
-    
+    tl.from("#stem-five", {alpha:0, duration: 1})
     tl.to("#leaf-3",{morphSVG:"#morphleaf3",duration: 1, ease: "none"},"-=100%")
     tl.to("#leaf-2",{morphSVG:"#morphleaf2",duration: 1, ease: "none"},"-=100%")
     tl.to("#leaf-1",{morphSVG:"#morphleaf1",duration: 1, ease: "none"},"-=100%")
