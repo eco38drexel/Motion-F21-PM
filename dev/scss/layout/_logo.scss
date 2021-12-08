@@ -1,0 +1,19 @@
+#logo{
+
+    position: fixed;
+    height: 60vh;
+    width: 100%;
+
+
+    >div{
+
+        svg{
+            border: none;
+            width: 100%;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}

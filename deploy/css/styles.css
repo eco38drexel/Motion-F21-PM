@@ -365,6 +365,10 @@ ul li {
   list-style: none;
 }
 
+.hide {
+  display: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -413,3 +417,16 @@ textarea {
 /* =============
     Footer
 ============= */
+#logo {
+  position: fixed;
+  height: 60vh;
+  width: 100%;
+}
+#logo > div svg {
+  border: none;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
